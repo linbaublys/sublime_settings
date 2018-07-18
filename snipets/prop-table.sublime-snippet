@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+"table"      => [
+  "show"     => true,
+  "width"    => false,
+  "css"      => '',
+  'notSortable' => true,
+  "jscallback" => '',
+],
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fftable</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

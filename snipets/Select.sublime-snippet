@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+"Select" => [
+  "fieldType"  => 'Select',
+  "label"      => 'Select',
+  "properties" => [
+    'values' => [
+                  ["Text"=>"aaaaa", "Value"=>"aaaa"],
+                ],
+                getSetValues('clientStatuses'),
+                $db->query("select ModuleName as Name, ModuleName as Value from ws_Modules order by ModuleName asc"),
+    // "searchQuery" => "(select Name from wa_InvoiceSeries wis where wis.ID=entr.FLDNAME)",
+    // "searchQuery" => 'getSetValues::clientStatuses',
+  ],
+], // -------------------------------------------------------------------------
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ffSelect</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

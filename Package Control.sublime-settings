@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"BracketHighlighter",
+		"Colorsublime",
+		"Emmet",
+		"Expand Selection to Quotes",
+		"GitGutter",
+		"Hayaku - tools for writing CSS faster",
+		"jQuery",
+		"JSONLint",
+		"Libsass Build",
+		"Package Control",
+		"PHP Codebeautifier",
+		"PHP Syntax Checker",
+		"Phpcs",
+		"phpfmt",
+		"SASS Build",
+		"SCSS",
+		"Terminal",
+		"Theme - Brogrammer"
+	]
+}

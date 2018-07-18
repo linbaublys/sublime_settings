@@ -1,0 +1,84 @@
+{
+"scope": "",
+
+"completions":
+[
+    { 
+        "trigger": "showerrors", 
+        "contents": "ini_set('display_errors', 1);\nini_set('display_startup_errors', 1);\nerror_reporting(E_ALL);" 
+    },
+    { 
+        "trigger": "vd", 
+        "contents": "vd(\\$${1:var});" 
+    },
+    { 
+        "trigger": "load_class", 
+        "contents": "\\$${1:className} = & load_class('${2:className}');" 
+    },
+    { 
+        "trigger": "load_class-user", 
+        "contents": "\\$gUser = & load_class('User');" 
+    },
+    { 
+        "trigger": "load_class-sets", 
+        "contents": "\\$gSets = & load_class('Sets');" 
+    },
+    { 
+        "trigger": "load_class-hierarchy", 
+        "contents": "\\$gHierarchy = & load_class('Hierarchy');" 
+    },
+    { 
+        "trigger": "load_class-texts", 
+        "contents": "\\$gTxt = & load_class('Texts');" 
+    },
+    { 
+        "trigger": "load_class-response", 
+        "contents": "\\$gResponse = & load_class('Response');" 
+    },
+    { 
+        "trigger": "load_class-request", 
+        "contents": "\\$gReq = & load_class('Request');" 
+    },
+    { 
+        "trigger": "load_class-modules", 
+        "contents": "\\$gModule = & load_class('Module');" 
+    },
+    { 
+        "trigger": "load_class-fields", 
+        "contents": "\\$gFields = & load_class('Fields');" 
+    },
+    { 
+        "trigger": "load_class-languages", 
+        "contents": "\\$gLanguages = & load_class('Languages');" 
+    },
+    { 
+        "trigger": "db", 
+        "contents": "\\$db = & load_class('DB');" 
+    },
+    { 
+        "trigger": "db-select", 
+        "contents": "\\$${1:data} = \\$db->query('SELECT * FROM `${2:table}` WHERE ${3:where}');" 
+    },
+    { 
+        "trigger": "txt", 
+        "contents": "echo \\$gTxt->get('${1:key}', '${2:text}');" 
+    },
+    { 
+        "trigger": "inc", 
+        "contents": "include(BASEPATH . '../application/${1:fileName}');" 
+    },
+    { 
+        "trigger": "ne", 
+        "contents": "if (!empty(\\$${1:val})){\n\t${2:code}\n}" 
+    },
+    { 
+        "trigger": "str_contains", 
+        "contents": "str_contains(${1:needle}, ${2:haysack})" 
+    },
+    { 
+        "trigger": "sif", 
+        "contents": "<?php if(${1:statment}): ?> \n\t${2:code} \n<?php endif; ?>" 
+    }
+]
+}
+

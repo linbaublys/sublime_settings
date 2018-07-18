@@ -1,0 +1,9 @@
+[
+    { "keys": ["shift+delete"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["alt+scroll_up"], "command": "scroll_width", "args": {"amount": 30 } },
+    { "keys": ["alt+scroll_down"], "command": "scroll_width", "args": {"amount": -30 } },
+    { "keys": ["ctrl+f"], "command": "show_panel", "args": { "panel": "find", "in_selection": false } },
+    { "keys": ["alt+shift+ctrl+left"], "command": "move_text_left" },
+    { "keys": ["alt+shift+ctrl+right"], "command": "move_text_right" },
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" } 
+]

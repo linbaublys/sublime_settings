@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+"Tag" => [
+  "fieldType"  => 'Tag',
+  "label"      => 'Tag',
+  "properties" => [
+    "autocompleteItems" => getDistinctSemicolonEntries($db->query("select distinct(ModuleName) from ws_Modules")),
+  ],
+], // -------------------------------------------------------------------------
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ffTag</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

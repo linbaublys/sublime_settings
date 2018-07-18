@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+"Checkbox" => [
+  "fieldType"  => 'Checkbox',
+  "label"      => 'Checkbox',
+  "properties" => [
+    // 'defaultValue' => 1,
+  ],
+], // -------------------------------------------------------------------------
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ffCheckbox</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
