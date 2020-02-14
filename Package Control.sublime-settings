@@ -5,13 +5,14 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"BracketHighlighter",
 		"Colorsublime",
 		"Emmet",
 		"Expand Selection to Quotes",
 		"GitGutter",
+		"Gutter Color",
 		"Hayaku - tools for writing CSS faster",
+		"Highlighter",
 		"jQuery",
 		"JSONLint",
 		"Libsass Build",
@@ -20,9 +21,11 @@
 		"PHP Syntax Checker",
 		"Phpcs",
 		"phpfmt",
+		"Pretty JSON",
 		"SASS Build",
 		"SCSS",
 		"Terminal",
+		"Terminus",
 		"Theme - Brogrammer"
 	]
 }

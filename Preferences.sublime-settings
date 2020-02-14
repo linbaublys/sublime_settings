@@ -5,13 +5,20 @@
 	"caret_style": "solid",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"enable_tab_scrolling": false,
+	"folder_exclude_patterns":
+	[
+		"__*",
+		"_sql",
+		".git"
+	],
 	"font_face": "Roboto Mono",
 	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"zzz A File Icon zzz"
 	],
 	"indent_guide_options":
 	[
