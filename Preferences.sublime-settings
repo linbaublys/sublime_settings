@@ -10,6 +10,7 @@
 		"media/*",
 		"__*",
 		"_sql",
+		"vendor/*",
 		".git"
 	],
 	"font_face": "Roboto Mono",
@@ -18,6 +19,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Package Control",
 		"Vintage",
 		"zzz A File Icon zzz"
 	],
