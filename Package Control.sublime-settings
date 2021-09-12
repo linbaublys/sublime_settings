@@ -8,7 +8,9 @@
 		"BracketHighlighter",
 		"Colorsublime",
 		"Emmet",
+		"Evaluate",
 		"Expand Selection to Quotes",
+		"Flexbox Snippets",
 		"GitGutter",
 		"Gutter Color",
 		"Hayaku - tools for writing CSS faster",
@@ -26,6 +28,7 @@
 		"SCSS",
 		"Terminal",
 		"Terminus",
-		"Theme - Brogrammer"
-	]
+		"Theme - Brogrammer",
+		"TrailingSpaces"
+	],
 }

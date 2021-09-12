@@ -14,13 +14,13 @@
 		".git"
 	],
 	"font_face": "Roboto Mono",
-	"font_size": 12,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage",
-		"zzz A File Icon zzz"
+		"zzz A File Icon zzz",
 	],
 	"indent_guide_options":
 	[
@@ -44,5 +44,6 @@
 	"theme": "Brogrammer.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"wide_caret": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"show_project_first": true,
 }

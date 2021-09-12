@@ -1,6 +1,6 @@
 {
 	"format_on_save": false,
-	"php_bin": "C:/wamp64/bin/php/php7.0.23/php.exe",
+	"php_bin": "C:/xampp/php/php.exe",
 	"psr2": true,
-	"version": 1
+	"version": 1,
 }
